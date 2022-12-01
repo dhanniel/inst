@@ -13,7 +13,7 @@
     /* background-color: red; */
     background-color: rgb(251, 251, 251);
     justify-content: center;
-    gap:10px;
+    gap:25px;
     padding: 2rem 0rem 0 16rem;
 }
 
@@ -290,7 +290,7 @@
     background-color: white;
     text-decoration: none;
     border-radius: 10px;
-    border:1px solid blue;
+    background-color:rgb(251, 251, 251);
 } 
 
 .account-setting {
