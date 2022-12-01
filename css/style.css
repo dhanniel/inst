@@ -14,11 +14,11 @@
     background-color: rgb(251, 251, 251);
     justify-content: center;
     gap:10px;
-    padding: 2rem 0rem 0 21rem;
+    padding: 2rem 0rem 0 16rem;
 }
 
 .navbar {
-    width:18%;
+    width:16%;
     height:100vh;
     border-right: 7px solid #e6e5e5;
     padding-left: 10px;
@@ -34,7 +34,6 @@
     width: 103px ;
     color:rgb(42, 40, 40);
     margin: 40px 6px 30px 14px;
-    
 }
 
 .nav-icons img {
@@ -72,7 +71,7 @@
 
 
 .More {
-    margin-top: 24rem;
+    margin-top: 10rem;
 }
 
 .nav-icons > a:hover {
@@ -287,10 +286,110 @@
 }
 
 .side-bar{
-    width: 25%;
-    background-color: blue;
+    width: 26%;
+    background-color: white;
     text-decoration: none;
+    border-radius: 10px;
+    border:1px solid blue;
 } 
+
+.account-setting {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    color: grey;
+    margin-bottom: -14px;
+}
+
+.account-setting1 {
+    display:flex;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: 500;
+    gap:10px;
+}
+
+.account-setting a:nth-of-type(1){
+    text-decoration: none;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color:rgb(34, 160, 233)
+
+}
+
+.suggestion { 
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+}
+.suggest {
+    color:rgb(68, 66, 66);
+    font-size: 0.8rem;
+}
+
+.suggestion a{
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color:rgb(36, 35, 35);
+
+}
+
+.suggestion p{
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color:grey;
+
+}
+
+.imgWrapper2 img {
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+    padding:5px;
+    margin-top: 15px;
+}
+
+.imgWrapper3 img {
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    padding:5px;
+    margin-top: 15px;
+}
+
+.footer2 {
+    color:rgb(201, 198, 198);
+    font-size: 0.7rem;
+    margin-top:40px;
+    padding-left: 15px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.footer2-sub {
+    display:flex;
+    flex-direction: row;
+    gap:4px;
+}
+
+.footer2-sub a {
+    text-decoration: none;
+    color:rgb(201, 198, 198);
+    word-spacing: 10px;
+}
+
+.footer2-sub a:hover {
+    text-decoration:underline;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
+
 
 
 
